@@ -19,6 +19,6 @@ textmei.appendChild(childList);
 
  // id="text"の文章を書き換えるには、textContent を使う。
 
- text.textContent    = "ボタンをクリックしました";
+ textmei.textContent    = "ボタンをクリックしました";
 
 });
