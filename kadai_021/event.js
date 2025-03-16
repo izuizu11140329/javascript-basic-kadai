@@ -8,7 +8,7 @@ const textmei = document.getElementById('text');
 
 //HTML要素がクリックされたときにイベント処理を実行する
 bmei.addEventListener('click',() => {
-    
+
 setTimeout(()=> {      // イベント処理の中で非同期処理の記述する！
 
 //li要素を新しく追加する(clildListは新しいli要素の定数名)
@@ -19,7 +19,7 @@ childList.textContent = 'ボタンをクリックしました';
 textmei.appendChild(childList);
 
  // id="text"の文章を書き換えるには、textContent を使う。
- text.textContent    = "ボタンをクリックしました";
+ textmei.textContent    = "ボタンをクリックしました";
 
    },2000);  //これで2秒後に実行になる！
 
